@@ -1,7 +1,11 @@
+from sys import argv
+
+script, filename = argv 
+
 f = open ("inputfile.txt", "r")
 wholefile = f.read()
-print "wholefile"
-print wholefile
+
+#print wholefile
 # split by whitespace
 tokens = [] 
 for word in wholefile.split():
